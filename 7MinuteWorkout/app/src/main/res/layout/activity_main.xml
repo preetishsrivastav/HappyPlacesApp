@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/iv_workout"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/ic_7_minute_workout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/fl_button"
+        />
+    <FrameLayout
+        android:id="@+id/fl_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/fl_bg_ripple_view"
+        app:layout_constraintTop_toBottomOf="@+id/iv_workout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
+
+
+
+    </FrameLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bmi_btn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="124dp"
+        android:background="@drawable/bmi_btn_bg"
+        android:text="@string/bmi"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fl_button" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/history_btn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_baseline_history_24"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/bmi_btn_bg"
+        android:layout_marginEnd="64dp"
+        app:layout_constraintStart_toEndOf="@id/bmi_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fl_button" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+

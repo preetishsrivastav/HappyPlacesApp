@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Happy Places</string>
+    <string name="title"><u >Title</u> </string>
+    <string name="add_image">Add Image</string>
+    <string name="save">SAVE</string>
+    <string name="location">Location</string>
+    <string name="date">Date</string>
+    <string name="description">Description</string>
+</resources>

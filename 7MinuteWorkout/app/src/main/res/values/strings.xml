@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">7 Minute Workout</string>
+    <string name="get_ready_for">GET READY FOR</string>
+    <string name="upcoming_exercise">Upcoming Exercise :</string>
+    <string name="start">START</string>
+    <string name="history">HISTORY</string>
+    <string name="bmi">BMI</string>
+    <string name="weight_in_kg"><b>Weight (in Kg)</b></string>
+    <string name="height_in_cm"><b>Height (in cm)</b></string>
+    <string name="history_text">History</string>
+    <string name="no">No</string>
+    <string name="are_you_sure_you_want_n_to_quit_exercise">Are You Sure you Want \n To Quit Exercise?</string>
+    <string name="yes">Yes</string>
+</resources>
